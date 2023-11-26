@@ -12,7 +12,6 @@ const PUBLIC_FOLDER = 'public';
 
 app.use(`/${PUBLIC_FOLDER}`, express.static(path.resolve(PUBLIC_FOLDER)));
 app.use(`/`, express.static(path.resolve('dist')));
-app.use(`/style.css`, express.static(path.resolve('style.css')));
 app.use(`/node_modules`, express.static(path.resolve('node_modules')));
 
 app.all('/*', function(req: express.Request, res: express.Response) {
