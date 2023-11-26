@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sudoku Solver</title>
+  <style type="text/css">
+    h1 { font-family: Calibri, sans-serif; font-size: 2.0em;}
+    table { border-collapse: collapse; font-family: Calibri, sans-serif; font-size: 1.4em;}
+    colgroup, tbody { border: solid medium; }
+    td { border: solid thin; height: 1.6em; width: 1.6em; text-align: center; padding: 0; }
+    div.button {margin-top: 10px; }
+    button {font-family: Calibri, sans-serif; font-size: 1.2em;}
+    div.solution {margin-top: 10px; font-family: Calibri, sans-serif; font-size: 1.2em;}
+  </style>
+</head>
+<body>
+  <!--<sudouku-solver initial-state="   26 7 168  7  9 19   45  82 1   4   46 29   5   3 28  93   74 4  5  367 3 18   "></sudouku-solver>-->
+  <!--<sudouku-solver initial-state="   6  4  7    36      91 8           5 18   3   3 6 45 4 2   6 9 3       2    1  "></sudouku-solver>-->
+  <sudouku-solver initial-state=" 2          6    3 74 8         3  2 8  4  1 6  5         1 78 5    9          4 "></sudouku-solver>
+  <script src="node_modules/@webcomponents/custom-elements/src/native-shim.js"></script>
+  <script src="sudoku-solver.js"></script>
+</body>
+</html>
